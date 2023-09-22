@@ -61,12 +61,21 @@ body {
     width: 100%; /* Grow the line to 100% on hover */
 }
 
-#curved-area {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100px; /* Adjust the height of the curved area */
+#home {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+#home_page1 {
+    display: flex;
+    align-items: center;
     background-color: white;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%, 50% 50%);
+    border-radius: 10px;
+}
+
+#pfp_image {
+    width: auto;
+    height: 500px;
+    border-radius: 10px;
 }
