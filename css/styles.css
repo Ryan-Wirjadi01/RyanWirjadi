@@ -60,4 +60,13 @@ body {
 #navbar li a:hover::before {
     width: 100%; /* Grow the line to 100% on hover */
 }
-  
+
+#curved-area {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px; /* Adjust the height of the curved area */
+    background-color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%, 50% 50%);
+}

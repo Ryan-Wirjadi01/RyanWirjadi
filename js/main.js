@@ -2,12 +2,12 @@
 function toggleNav() {
     const navbar = document.getElementById('navbar');
     navbar.classList.toggle('responsive');
-  }
+}
   
-  const menuIcon = document.createElement('div');
-  menuIcon.classList.add('menu-icon');
-  menuIcon.addEventListener('click', toggleNav);
-  
-  const nav = document.querySelector('nav');
-  nav.appendChild(menuIcon);
+const menuIcon = document.createElement('div');
+menuIcon.classList.add('menu-icon');
+menuIcon.addEventListener('click', toggleNav);
+
+const nav = document.querySelector('nav');
+nav.appendChild(menuIcon);
   
